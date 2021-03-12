@@ -1,0 +1,16 @@
+{
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "marc mendoza",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
+}
