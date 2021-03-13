@@ -6,8 +6,11 @@ function checkForShip(player, coordinates) {
             return actualCoordinates[0] === coordinates[0] &&
             actualCoordinates[1] === coordinates[1];
         });
+        if (shipPresent.length > 0) {
+            return true;
+        }
     }
-    return shipPresent.length > 0;
+    return false;
 }
 
 module.exports.checkForShip = checkForShip;
