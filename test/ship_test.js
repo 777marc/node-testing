@@ -40,7 +40,6 @@ describe('checkForShip', function() {
         expect(checkForShip(player, [0, 1])).to.be.true;
     });
 
-
     it('should handel checking multiple ships', function() {
         expect(checkForShip(player, [9, 9])).to.be.false;
         expect(checkForShip(player, [0, 0])).to.be.true;
