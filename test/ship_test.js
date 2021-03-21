@@ -23,6 +23,10 @@ describe('checkForShip', function() {
                 }
             ]
         };
+    });
+
+    after(function() {
+        console.log('entire suite completed')
     })
 
     it('should correctly report no ship at a given players coordinate', function() {
